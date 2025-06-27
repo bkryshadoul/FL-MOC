@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FL511 - Florida's Official Source for Real-Time Traffic Information</title>
-    </head>
+    <title>Your Project Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body class="mobileFirst" data-new-gr-c-s-check-loaded="14.1237.0" data-gr-ext-installed="">
     <div id="page">
         <div class="modal fade modal-vertical-centered" tabindex="-1" role="dialog" id="imageModal">
@@ -32,10 +33,12 @@
             </noscript>
             <a href="#content" class="sr-only sr-only-focusable" title="Content" style="color:#fff;" tabindex="1">Skip to main content</a>
             <div class="printSiteHeader">FL511</div>
+
             <nav class="navbar navbar-inverse topBannerFixed" aria-label="menu">
                 <div class="container-fluid">
                     <div class="row navBar mobile">
                         <div class="navbar-header">
+
                             <div class="navbar-toggle collapsed menuLogin">
                                 <ul class="nav navbar-nav">
                                     <li class="dropdown menu-login">
@@ -43,23 +46,27 @@
                                             <i class="far fa-user-circle userIcon" aria-hidden="true"><span class="sr-only">User</span></i>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
+
                                             <li><a href="/my511/register" id="mobileRegisterLink">Sign Up<span class="hideForAccessibility"> for an account.</span></a></li>
                                             <li><a href="#" id="mobileLoginBtn" role="button" data-toggle="modal" data-target="#loginModalDialog" aria-label="Log In">Log In</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
+
                             <a class="navbar-toggle collapsed" href="#menu">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </a>
+
                             <a href="/" class="site-logo"></a>
                             <div class="headerText">
                                 <span class="tagLine"><span>Connect.</span><span>Know.</span><span>Go.</span></span>
                                 <span class="motto"> Florida's Official Source for<br>Real-Time Traffic Information</span>
                             </div>
+
                         </div>
                         <div class="socialIcons notLoggedIn">
                             <a href="/App" target="_self" title="Mobile Apps">
@@ -81,7 +88,9 @@
                                 <span class="Text">YouTube</span> <span class="IconImg6"></span><span class="hideForAccessibility">Link to YouTube in new window.</span>
                             </a>
                         </div>
+
                         <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+
                             <ul class="nav navbar-nav navbarTop-right">
                                 <li class="regionRight">
                                     <div id="region-list-label" class="hidden">Open list of regions</div>
@@ -105,7 +114,7 @@
                                             <a href="/region/Southeast" onclick="event.preventDefault(); submitRegionInfo('Southeast', 'SE', ['25.75', '-80.2', '8']);" aria-label="Zoom in to Southeast region" title="Southeast">Southeast</a>
                                         </li>
                                         <li>
-                                            <a href="/region/Southwest" onclick="event.preventDefault(); submitRegionInfo('Southwest', 'SW', ['26.62', '-81.68', '8']);" aria-label="Zoom in to Southwest region" title="Southwest">Southwest</a>
+                                            <a href="/region/Southwest" onclick="event.preventDefault(); submitRegionInfo('Southwest', 'SW', ['26.62', '-81.68', '8'], true);" aria-label="Zoom in to Southwest region" title="Southwest">Southwest</a>
                                         </li>
                                         <li>
                                             <a href="/region/Tampa%20Bay" onclick="event.preventDefault(); submitRegionInfo('Tampa Bay', 'TB', ['28.07', '-82.46', '8']);" aria-label="Zoom in to Tampa Bay region" title="Tampa Bay">Tampa Bay</a>
@@ -129,6 +138,8 @@
                                     </ul>
                                 </li>
                             </ul>
+
+
                             <div class="menu-width">
                                 <ul class="nav navbar-nav main-menu">
                                     <li class="only511">
@@ -138,6 +149,7 @@
                                         <a href="/" class="dropdown-toggle" target="_self" title="Traffic Menu" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
                                             Traffic <span class="caret"></span>
                                         </a>
+
                                         <ul class="dropdown-menu" role="menu" style="column-count: 1 ">
                                             <li>
                                                 <a class="" href="/list/events/traffic" target="_self" title="Traffic - Incidents List" data-toggle="collapse" data-target=".navbar-collapse.in">Incidents List</a>
@@ -154,16 +166,19 @@
                                             <li>
                                                 <a class="" href="/list/bridge" target="_self" title="Traffic - Drawbridge Crossings" data-toggle="collapse" data-target=".navbar-collapse.in">Drawbridge Crossings</a>
                                             </li>
+
                                         </ul>
                                     </li>
                                     <li class="dropdown only511">
                                         <a href="/" class="dropdown-toggle" target="_self" title="My Florida 511 Menu" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
                                             My Florida 511 <span class="caret"></span>
                                         </a>
+
                                         <ul class="dropdown-menu" role="menu" style="column-count: 1 ">
                                             <li>
                                                 <a class="" href="/my511" target="_self" title="My Florida 511 - My Routes & Notifications" data-toggle="collapse" data-target=".navbar-collapse.in">My Routes & Notifications</a>
                                             </li>
+
                                         </ul>
                                     </li>
                                     <li class="">
@@ -183,13 +198,17 @@
                                     </li>
                                 </ul>
                             </div>
+
+
                             <div class="nonDesktop">
                                 <nav id="menu">
                                     <ul>
+
                                         <li class="only511">
                                             <a href="/map" target="_self" title="Map Menu">Map</a>
                                         </li>
                                         <li class="">
+
                                             <span>Traffic</span>
                                             <ul role="menu">
                                                 <li>
@@ -207,14 +226,17 @@
                                                 <li>
                                                     <a class="" href="/list/bridge" target="_self" title="Traffic - Drawbridge Crossings" data-toggle="collapse" data-target=".navbar-collapse.in">Drawbridge Crossings</a>
                                                 </li>
+
                                             </ul>
                                         </li>
                                         <li class="only511">
+
                                             <span>My Florida 511</span>
                                             <ul role="menu">
                                                 <li>
                                                     <a class="" href="/my511" target="_self" title="My Florida 511 - My Routes & Notifications" data-toggle="collapse" data-target=".navbar-collapse.in">My Routes & Notifications</a>
                                                 </li>
+
                                             </ul>
                                         </li>
                                         <li class="">
@@ -232,6 +254,8 @@
                                         <li class="">
                                             <a href="http://news.fl511.com" target="_blank" title="Newsroom Menu">Newsroom</a>
                                         </li>
+
+
                                         <li>
                                             <span>Statewide</span>
                                             <ul role="menu">
@@ -267,6 +291,7 @@
                             </div>
                             <form action="/home/setculture" id="languageForm" method="post"><input id="culture" name="culture" type="hidden" value=""><input id="returnUrl" name="returnUrl" type="hidden" value="/"></form>
                         </div>
+
                     </div>
                 </div>
             </nav>
@@ -274,16 +299,22 @@
                 <a class="alertHeader" href="/List/Alerts" aria-label="Alerts" title="View alerts list"> <i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Alerts<span class="sr-only">Alerts</span></a>
                 <div id="alertWrapper">
                     <div id="alertsBox" class="scroller siteWideAlerts" style="position: relative; height: 37px; overflow: hidden;">
-                        <ul style="margin: 0px; position: absolute;"><li id="alertsLi0_0" data-type="">Jacksonville: There is lane-blocking construction on US-17/N Main St from Busch Drive to Baisden Rd. Also on SR-228/Post St at</li><li id="alertsLi0_1" data-type="">McDuff Ave. Use caution in the area.</li><li id="alertsLi1_0" data-type="highImportanceAlert">There is scheduled road work on the Polk Parkway eastbound at exit 10, US 98.  All lanes are scheduled to be closed from 9pm to</li><li id="alertsLi1_1" data-type="highImportanceAlert">6am.  Motorists should follow posted detour signs to re-enter the Polk Parkway.</li><li id="alertsLi2_0" data-type="">The southbound lanes of I-95 and I-95 Express are closed at Sunrise Blvd due to scheduled roadwork. Motorists are able to re-enter</li><li id="alertsLi2_1" data-type="">southbound I-95 via the southbound Sunrise Blvd entrance ramp. Please use caution and expect delays.</li></ul>
-                        <span class="tempAlert" hidden="" style="margin: 0px;">southbound I-95 via the southbound Sunrise Blvd entrance ramp. Please use caution and expect delays.</span>
+                        <ul style="margin: 0px; position: absolute;"><li id="alertsLi0_0" data-type="">Jacksonville: There is lane-blocking construction on US-17/N Main St from Busch Drive to Baisden Rd. Also on SR-228/Post St at McDuff Ave. Use caution in the area.</li><li id="alertsLi1_0" data-type="highImportanceAlert">There is scheduled road work on the Polk Parkway eastbound at exit 10, US 98. All lanes are scheduled to be closed from 9pm to 6am. Motorists should follow posted detour signs to re-enter the Polk Parkway.</li><li id="alertsLi2_0" data-type="">The southbound lanes of I-95 and I-95 Express are closed at Sunrise Blvd due to scheduled roadwork. Motorists are able to re-enter southbound I-95 via the southbound Sunrise Blvd entrance ramp. Please use caution and expect delays.</li><li id="alertsLi3_0" data-type="">Lake City: There is lane blocking construction on US-41 at I-75. Use caution in the area and follow posted detours.</li></ul>
+                        <span class="tempAlert" hidden="" style="margin: 0px;">Lake City: There is lane blocking construction on US-41 at I-75. Use caution in the area and follow posted detours.</span>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="container-fluid mainContainer" role="main" style="height: auto;">
+
             <div class="messageContainer">
+
+
             </div>
             <div id="content" style="height: 100%; overflow: hidden; min-height: auto;">
+
+
                 <div class="pageDown" style="height: 100%;">
                     <div class="row mapPage">
                         <div class="sideBarGroup">
@@ -293,34 +324,40 @@
                                         <li id="RoutesTab" class="active">
                                             <a href="#MyRoutes" data-toggle="tab" aria-expanded="true">
                                                 <h1>My Routes</h1>
+
                                                 <p class="contentHeading">Content for Heading</p>
                                             </a>
                                         </li>
                                         <li id="AlertsTab">
                                             <a href="#Alerts" data-toggle="tab">
                                                 <h1>Alerts</h1>
+
                                                 <p class="contentHeading">Content for Heading</p>
                                             </a>
                                         </li>
                                         <li id="NewsTab">
                                             <a href="#News" data-toggle="tab">
                                                 <h1>News</h1>
+
                                                 <p class="contentHeading">Content for Heading</p>
                                             </a>
                                         </li>
                                     </ul>
+
                                     <button class="closeSideBar" title="Close Route Planner" aria-label="Close Route Planner">
                                         <i class="far fa-times"></i>
                                     </button>
                                     <button class="hideSideBar" title="Hide Route Planner" aria-label="Hide Route Planner">
                                         <i class="far fa-chevron-circle-left fa-2x"></i>
                                     </button>
+
                                     <div id="topLevelContent" class="tab-content" style="max-height: 745px;">
                                         <div id="News" class="tab-pane">
                                             <div class="row">
                                                 <div class="col-sm-12">
                                                     <h2>WHAT'S NEW</h2>
                                                     <div class="whatsNew newsContent">
+
                                                         <div id="Map_Index_WhatsNew" data-atisparent="true">
                                                             <div id="virtual-106" data-atis="true" class=""></div>
                                                             <div id="virtual-102" data-atis="true" class=""></div>
@@ -329,6 +366,8 @@
                                                             <div id="virtual-108" data-atis="true" class=""></div>
                                                             <div id="virtual-109" data-atis="true" class=""></div>
                                                         </div>
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -337,15 +376,20 @@
                                             <div class="row">
                                                 <div class="col-sm-12">
                                                     <p class="defaultAlertMsg" style="">There's no alert at this time.</p>
+
                                                     <div id="Map_Index_AlertMsg" data-atisparent="true" data-ajax="true"><div data-atis="true" id="virtual-117" class=""></div><div data-atis="true" id="virtual-115" class=""></div><div data-atis="true" id="virtual-120" class=""></div></div>
+
+
                                                 </div>
                                             </div>
                                         </div>
                                         <div id="MyRoutes" class="tab-pane active">
                                             <div class="row">
                                                 <div>
+
                                                     <div id="routingInput">
                                                         <form>
+
                                                             <div class="input-location">
                                                                 <div class="form-group hidden-print">
                                                                     <div class="input-group inputLocation">
@@ -386,7 +430,9 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                             <div id="form-group-routingOptions" class="form-group hidden-print">
+
                                                                 <div class="transitButtons">
                                                                     <button type="submit" id="generateRouteBtn" class="btn btn-info travelModes drive" title="Drive" aria-label="Drive">
                                                                         <i class="far fa-car fa-2x" aria-hidden="true"></i>
@@ -400,10 +446,12 @@
                                                                     <div class="transitText">Reset</div>
                                                                 </div>
                                                                 <div id="Directions" data-atisparent="true">
-                                                                    <div data-atis="true" id="virtual-66"><button class="fa fa-question-circle" data-helpid="Directions-Help" data-original-title="" data-placement="auto" data-toggle="popover" title="" type="button" style="visibility: visible;"></button>
+                                                                    <div id="virtual-66" data-atis="true"><button class="fa fa-question-circle" data-helpid="Directions-Help" data-original-title="" data-placement="auto" data-toggle="popover" title="" type="button" style="visibility: visible;"></button>
+
                                                                         <div data-help="true" hidden="hidden" id="Directions-Help">The trip planner will give you the best route for your trip using current traffic data. Enter origin and destination and your fastest route will display on the map. If you want to modify the route, click and drag any part of the route to a new roadway. You can create as many new waypoints as needed to modify your route.</div>
                                                                     </div>
                                                                 </div>
+
                                                                 <div class="linkIcons">
                                                                     <a class="linkRoute" title="Link To Route" aria-label="Link To Route" tabindex="0">
                                                                         <i class="far fa-link fa-2x" aria-hidden="true"></i>
@@ -419,13 +467,17 @@
                                                                         <div class="panel-item" aria-labelledby="avoidTollsCheckBox">
                                                                             <label><input type="checkbox" id="avoidTollsCheckBox"> Tolls</label>
                                                                         </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="clearfix"></div>
                                                             <div id="routePlannerDesc" class="alert alert-default" style="display: none;">
+
                                                                 <div id="Map_Index_RoutePlannerDescription" data-atisparent="true">
                                                                 </div>
+
+
                                                             </div>
                                                             <div id="statusBar" class="alert alert-default" style="display: none;">
                                                             </div>
@@ -439,9 +491,12 @@
                                                                 <div id="transitRouteResults" class="panel panel-default"></div>
                                                             </div>
                                                             <div class="visible-md-block visible-lg-block myCamerasRoutePlanner">
+
+
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -451,27 +506,65 @@
                             <button class="showSideBar" title="Show Route Planner" aria-label="Show Route Planner">
                                 <i class="far fa-chevron-circle-right fa-2x"></i>
                             </button>
+
                             <button class="btn locationBtn">
                                 <i class="far fa-search" aria-hidden="true"></i> Search Map
                             </button>
                         </div>
-                        <div class="myCamerasGroup"><div class="row myCamerasContainer">
-                            <h2>
-                                My Cameras <i class="far fa-times" aria-hidden="true" title="Close"></i>
-                                <span id="MyCamToggleBtn" data-toggle="collapse" title="Toggle">
-                                    <button class="routeToggleBtn">
-                                        <i class="far fa-minus-circle" aria-hidden="true"></i>
-                                        <span class="sr-only">Toggle</span>
-                                    </button>
-                                </span>
-                            </h2>
-                            <div id="MyCamerasSlideshow" class="myCameras in">
-                                <span class="label label-info myCamInfo">
-                                    Please login to customize My Cameras.
-                                </span>
-                                <a title="View on map" id="myCameraLocation" href="#camera-3817"><p id="myCameraTitle">I10-MM 003.3EB-Weigh Station</p></a>
-                                <div id="NoCameras" style="display: none;"> <p>To add to My Cameras View:</p><ul><li><a href="/map" target="_blank">Map page</a> - Click on a camera icon on the map, then click the "My Cameras" button at the top of the camera popup. Select from the Camera View list to add or de-select to remove.</li><li><a href="/cctv" target="_blank">Camera page</a> - Click on the   <i class="fas fa-ellipsis-v" aria-label="three dots icon"></i>   three dots icon below the camera image to access the "My Cameras" option.  Select from the Camera View list to add or de-select to remove.</li></ul></div>
-                                <div class="cameraCarousel slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow" type="button" aria-disabled="false">Previous</button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2568px; transform: translate3d(-856px, 0px, 0px);"><div data-slick-index="0" class="slick-slide" aria-hidden="true" style="width: 856px;" data-setup="false" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" tabindex="-1"><div class="text-center"><button class="btn btn-default btn-xs showMyVideo" id="showVideo-3078" data-camera-id="3078" tabindex="-1"> Show Video </button><button class="btn btn-default btn-xs hideMyVideo" id="hideVideo-3078" data-camera-id="3078" style="display:none" tabindex="-1">Hide Video</button></div><div class="dirDescHeader">417-003_4-SB-IPV</div><div id="3078-myVideoContainer" data-site-id="3078" data-videoauth="true" data-videourl="https://dim-se6.divas.cloud:8200/chan-5920/index.m3u8" data-streamtype="application/x-mpegURL" data-camera-id="3078"></div><img id="carouselId-3078" data-id="3078" data-site-id="3078" title="Click to enlarge the image." data-title="SR-417 MM 03.4 at Osceola Pkwy" data-url="/map/Cctv/3078" class="myCamImg" alt="417-003_4-SB-IPV" data-refresh-rate="60000" data-fs-title="SR-417 MM 03.4 at Osceola Pkwy" data-fs-desc="417-003_4-SB-IPV" data-srcloaded="true" src="/map/Cctv/3078?t=1750995540" style="opacity: 1;"></div><div data-slick-index="1" class="slick-slide slick-current slick-active" aria-hidden="false" style="width: 856px;" data-setup="true" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01"><div class="text-center"><button class="btn btn-default btn-xs showMyVideo" id="showVideo-3817" data-camera-id="3817" tabindex="0"> Show Video </button><button class="btn btn-default btn-xs hideMyVideo" id="hideVideo-3817" data-camera-id="3817" style="display:none" tabindex="0">Hide Video</button></div><div class="dirDescHeader">CCTV-I10-003.3-EB</div><div id="3817-myVideoContainer" data-site-id="3817" data-videoauth="true" data-videourl="https://dim-se10.divas.cloud:8200/chan-10398/index.m3u8" data-streamtype="application/x-mpegURL" data-camera-id="3817"></div><img id="carouselId-3817" data-id="3817" data-site-id="3817" title="Click to enlarge the image." data-title="I10-MM 003.3EB-Weigh Station" data-url="/map/Cctv/3817" class="myCamImg" alt="CCTV-I10-003.3-EB" data-refresh-rate="60000" data-fs-title="I10-MM 003.3EB-Weigh Station" data-fs-desc="CCTV-I10-003.3-EB" data-srcloaded="true" src="/map/Cctv/3817?t=1750995540" style="opacity: 1;"></div><div data-slick-index="2" class="slick-slide" aria-hidden="true" style="width: 856px;" role="tabpanel" id="slick-slide02" data-setup="false" aria-describedby="slick-slide-control02" tabindex="-1"></div></div></div><button class="slick-next slick-arrow" type="button" aria-disabled="false">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="" aria-hidden="true" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide-control00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="false" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide-control01" class="slick-active"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide-control02"><button type="button" data-role="none" role="button" tabindex="0">3</button></li></ul></div>
+                        <div class="myCamerasGroup">
+                            <div class="row myCamerasContainer">
+                                <h2>
+                                    My Cameras <i class="far fa-times" aria-hidden="true" title="Close"></i>
+
+                                    <span id="MyCamToggleBtn" data-toggle="collapse" title="Toggle">
+                                        <button class="routeToggleBtn">
+                                            <i class="far fa-minus-circle" aria-hidden="true"></i>
+                                            <span class="sr-only">Toggle</span>
+                                        </button>
+                                    </span>
+
+                                </h2>
+                                <div id="MyCamerasSlideshow" class="myCameras in">
+                                    <span class="label label-info myCamInfo">
+                                        Please login to customize My Cameras.
+                                    </span>
+                                    <a title="View on map" id="myCameraLocation" href="#camera-3914">
+                                        <p id="myCameraTitle">SR 429 at Forest Lake</p>
+                                    </a>
+                                    <div id="NoCameras" style="display: none;">
+                                        <p>To add to My Cameras View:</p>
+                                        <ul>
+                                            <li><a href="/map" target="_blank">Map page</a> - Click on a camera icon on the map, then click the "My Cameras" button at the top of the camera popup. Select from the Camera View list to add or de-select to remove.</li>
+                                            <li><a href="/cctv" target="_blank">Camera page</a> - Click on the <i class="fas fa-ellipsis-v" aria-label="three dots icon"></i> three dots icon below the camera image to access the "My Cameras" option. Select from the Camera View list to add or de-select to remove.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="cameraCarousel slick-initialized slick-slider slick-dotted">
+                                        <button class="slick-prev slick-arrow" type="button" aria-disabled="false">Previous</button>
+                                        <div class="slick-list draggable">
+                                            <div class="slick-track" style="opacity: 1; width: 2568px; transform: translate3d(-1712px, 0px, 0px);">
+                                                <div data-slick-index="0" class="slick-slide" aria-hidden="true" style="width: 856px;" data-setup="false" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" tabindex="-1">
+                                                    <div class="text-center">
+                                                        <button class="btn btn-default btn-xs showMyVideo" id="showVideo-3078" data-camera-id="3078" tabindex="-1"> Show Video </button>
+                                                        <button class="btn btn-default btn-xs hideMyVideo" id="hideVideo-3078" data-camera-id="3078" style="display:none" tabindex="-1">Hide Video</button>
+                                                    </div>
+                                                    <div class="dirDescHeader">417-003_4-SB-IPV</div>
+                                                    <div id="3078-myVideoContainer" data-site-id="3078" data-videoauth="true" data-videourl="https://dim-se6.divas.cloud:8200/chan-5920/index.m3u8" data-streamtype="application/x-mpegURL" data-camera-id="3078"></div>
+                                                    <img id="carouselId-3078" data-id="3078" data-site-id="3078" title="Click to enlarge the image." data-title="SR-417 MM 03.4 at Osceola Pkwy" data-url="/map/Cctv/3078" class="myCamImg" alt="417-003_4-SB-IPV" data-refresh-rate="60000" data-fs-title="SR-417 MM 03.4 at Osceola Pkwy" data-fs-desc="417-003_4-SB-IPV" data-srcloaded="true" src="/map/Cctv/3078?t=1750995960" style="opacity: 1;">
+                                                </div>
+                                                <div data-slick-index="1" class="slick-slide" aria-hidden="true" style="width: 856px;" data-setup="false" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" tabindex="-1">
+                                                    <div class="text-center">
+                                                        <button class="btn btn-default btn-xs showMyVideo" id="showVideo-3817" data-camera-id="3817" tabindex="-1"> Show Video </button>
+                                                        <button class="btn btn-default btn-xs hideMyVideo" id="hideVideo-3817" data-camera-id="3817" style="display:none" tabindex="-1">Hide Video</button>
+                                                    </div>
+                                                    <div class="dirDescHeader">CCTV-I10-003.3-EB</div>
+                                                    <div id="3817-myVideoContainer" data-site-id="3817" data-videoauth="true" data-videourl="https://dim-se10.divas.cloud:8200/chan-10398/index.m3u8" data-streamtype="application/x-mpegURL" data-camera-id="3817"></div>
+                                                    <img id="carouselId-3817" data-id="3817" data-site-id="3817" title="Click to enlarge the image." data-title="I10-MM 003.3EB-Weigh Station" data-url="/map/Cctv/3817" class="myCamImg" alt="CCTV-I10-003.3-EB" data-refresh-rate="60000" data-fs-title="I10-MM 003.3EB-Weigh Station" data-fs-desc="CCTV-I10-003.3-EB" data-srcloaded="true" src="/map/Cctv/3817?t=1750995960" style="opacity: 1;">
+                                                </div>
+                                                <div data-slick-index="2" class="slick-slide slick-current slick-active" aria-hidden="false" style="width: 856px;" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -479,5 +572,6 @@
             </div>
         </div>
     </div>
-    </body>
+    <script src="js/script.js"></script>
+</body>
 </html>
